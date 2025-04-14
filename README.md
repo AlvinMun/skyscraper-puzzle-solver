@@ -45,7 +45,7 @@ Sample Output:
 3 4 1 2 
 4 1 2 3
 
-🧠 How the Code is Structured
+## 🧠 How the Code is Structured
 solve() – Recursively attempts to place valid numbers on the grid.
 
 is_valid() – Validates the full grid against visibility constraints.
@@ -58,12 +58,12 @@ initialize_grid() – Fills the grid with zeros.
 
 set_constraints() – Parses the input constraint string.
 
-🚨 Error Handling
+## 🚨 Error Handling
 Input must be exactly 16 digits, each between '1' and '4', separated by a single space.
 
 Invalid inputs or unsolvable puzzles will trigger an Error message.
 
-🛠️ Compilation
+## 🛠️ Compilation
 To compile the program:
 
 gcc -Wall -Wextra -Werror -o skyscraper skyscraper.c
@@ -72,5 +72,5 @@ To run:
 
 ./a.out "4 3 2 1 1 2 2 2 3 2 2 1 1 2 2 2"
 
-📜 License
+## 📜 License
 This project is open source and free to use under the MIT License.
