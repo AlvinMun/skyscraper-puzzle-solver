@@ -33,7 +33,7 @@ Right (top to bottom): 4 values
 
 ### Example:
 
-./skyscraper "4 3 2 1 1 2 2 2 3 2 2 1 1 2 2 2"
+./a.out "4 3 2 1 1 2 2 2 3 2 2 1 1 2 2 2"
 📄 Output
 If a valid solution is found, the program prints the 4x4 grid to stdout.
 
